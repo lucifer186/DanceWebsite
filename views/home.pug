@@ -1,0 +1,48 @@
+extends layout.pug 
+
+block scripts 
+   script(src="/static/index.js")
+
+block style 
+    style 
+      include ../static/style.css 
+
+block content 
+   section#introsection 
+       div Welcome Manoj Dance Academy 
+       div.small  Keep Calm and Start Dance
+
+
+   section#missionsection 
+      h2 Our Mission 
+      div.card
+         p ANY
+         div.card-box 
+            div.card-img 
+              img(src="/static/Dance1.jpg", alt="")
+         div.card-class
+            p This is best se best 
+
+      div.card
+         p BADY
+         div.card-box 
+            div.card-img 
+              img(src="/static/Dance2.jpg", alt="")
+         div.card-class
+            p This is best se best 
+
+      div.card
+         p CAN DANCE
+         div.card-box 
+            div.card-img 
+              img(src="/static/Dance3.jpg", alt="")
+         div.card-class
+            p This is best se best 
+
+   section#sponsersection 
+       h3 Our Sponsers 
+          div#sponser
+            img(src="/static/Apple-icon.png", alt="" , class=" Imgaes") 
+            img(src="/static/Skype-icon.png", alt="" , class=" Imgaes") 
+            img(src="/static/hp-logo-icon.png", alt="" , class=" Imgaes") 
+            img(src="/static/social-twitter-box-blue-icon.png", alt="" , class=" Imgaes") 

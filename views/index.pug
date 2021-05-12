@@ -1,0 +1,62 @@
+doctype html
+html
+  head 
+    title This is manoj
+    style 
+      include ../static/style.css 
+  
+  body 
+   nav#navbaar 
+       ul 
+           div#logo
+              img(src="/static/captain america.ico")
+           li #[a(href = "/") Home]
+           li #[a(href = "/") About ]
+           li #[a(href = "/") Services] 
+           li #[a(href = "/") Contact]
+
+   section#introsection 
+       div Welcome Manoj Dance Academy 
+       div.small  Keep Calm and Start Dance
+
+
+   section#missionsection 
+      h2 Our Mission 
+      div.card
+         p ANY
+         div.card-box 
+            div.card-img 
+              img(src="/static/Dance1.jpg", alt="")
+         div.card-class
+            p This is best se best 
+
+      div.card
+         p BADY
+         div.card-box 
+            div.card-img 
+              img(src="/static/Dance2.jpg", alt="")
+         div.card-class
+            p This is best se best 
+
+      div.card
+         p CAN DANCE
+         div.card-box 
+            div.card-img 
+              img(src="/static/Dance3.jpg", alt="")
+         div.card-class
+            p This is best se best 
+
+   section#sponsersection 
+       h3 Our Sponsers 
+          div#sponser
+            img(src="/static/Apple-icon.png", alt="" , class=" Imgaes") 
+            img(src="/static/Skype-icon.png", alt="" , class=" Imgaes") 
+            img(src="/static/hp-logo-icon.png", alt="" , class=" Imgaes") 
+            img(src="/static/social-twitter-box-blue-icon.png", alt="" , class=" Imgaes") 
+    
+   footer#footer 
+       | Copywrite @ Websites by Manoj
+    
+
+   script 
+    include ../static/index.js
